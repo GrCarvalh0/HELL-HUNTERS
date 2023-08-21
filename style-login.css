@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* , html{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins';
+    scroll-behavior: smooth;
+}
+
+main{
+    display: flex;
+}
+
+body{
+    background-image: url('Imagens/tela-login/montanhas.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+
+#sec1{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    max-width: 460px;
+}
+
+.form-box{
+    width: 500px;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*border-radius: 30px;*/
+    border: 2px solid rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(15px);
+    background-color: transparent;
+}
+
+#imagem{
+    width: 100%;
+    background-image: url('Imagens/tela-login/montanhas.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+
+h2{
+    font-size: 2.5em;
+    color: #64bfff;
+    text-align: center;
+}
+
+.input-box{
+    position: relative;
+    margin: 30px 0;
+    border-bottom: 2px solid #64bfff;
+    background-color: transparent;
+    width: 300px;
+    color: #ffffff;
+}
+.input-box label{
+    top: 30%;
+    left: 15px;
+    color: #fff;
+    font-size: 1em;
+    pointer-events: none;
+}
+
+.input-box input{
+    background: transparent;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    color: #fff;
+    height: 40px;
+    width: 85%;
+    
+}
+
+ion-icon{
+    font-size:25px;
+    position: absolute;
+}
+
+.lembre{
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+button{
+    height: 40px;
+    width: 100%;
+    border-radius: 3px;
+    font-weight: bold;
+    border: none;
+    margin: 15px 0;
+    color: #fff;
+    background-color: #64bfff;
+}
+
+button:hover{
+    background-color: #ffffffe4;
+    color: black;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+.lembre a{
+    padding-left: 20px;
+    color: #fff;
+}
+
+.register , .register a{
+    padding-left: 10px;
+    margin-top: 30px;
+    color: #fff;
+}
